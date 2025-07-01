@@ -9,6 +9,8 @@ const port = 3000
 app.use(router)
 app.use('/auth', authRouter)
 
+app.use('/auth', authRouter)
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
